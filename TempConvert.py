@@ -15,6 +15,6 @@ def main():
 
   FinalC = round(tempC, 1)
 
-  print(tempF, "is ", FinalC, "degrees celsius.")
+  print(tempF,"degrees Fahrenheit is", FinalC, "degrees Celsius.")
 if __name__ == '__main__':
   main()
