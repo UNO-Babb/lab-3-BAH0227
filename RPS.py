@@ -8,8 +8,8 @@ def main():
   wins = 0
   ties = 0
   losses = 0
-  play = "Yes"
-  while (play == "Yes"):
+  playagain = "Y"
+  while (playagain == "Y"):
     #Create a loop that continues as long as the user wants to play.
     #User can play as many games as they wish.
     computer = random.choice( ["R", "P", "S"] )
@@ -62,10 +62,7 @@ def main():
       print("You win!")
       wins = wins + 1
   
-    print("Wins \t Ties \t Losses")
-    print("---- \t ---- \t ------")
-    print(wins, "\t", ties , "\t", losses)
-    play = input("Play again? (Yes/No): ")
+    playagain = input("Play again? (Y/N): ")
   print("Thanks for Playing, the game is complete")
   print("Final Wins \t Final Ties \t Final Losses")
   print("---------- \t ---------- \t ------------")

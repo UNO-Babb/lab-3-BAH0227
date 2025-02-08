@@ -12,7 +12,7 @@ def main():
   realPi = math.pi
 
   #ask user for decimal percision (up to 10)
-  UserDecimal = input("What Approximation of Pi do you want, (limit of 10):")
+  UserDecimal = input("How many decimal points do you want to approximate Pi to, (limit of 10):")
   if(int(UserDecimal) <= 10):
     start = time.time()
     #calculate pi using the approximation technique
